@@ -4,7 +4,7 @@ install:
   - npm install -g codecov
   - npm install
 script:
-  - istanbul cover  ./node_modules/.bin/_mocha -- --recursive -t 10000
+  - npm test
   - codecov
 node_js:
   - v6

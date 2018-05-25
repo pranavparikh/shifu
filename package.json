@@ -4,7 +4,7 @@
   "description": "Mocking server",
   "main": "index.js",
   "scripts": {
-    "test": "istanbul cover _mocha -- --recursive -t 10000"
+    "test": "istanbul cover ./node_modules/.bin/_mocha -- --recursive -t 10000"
   },
   "repository": {
     "type": "git",
